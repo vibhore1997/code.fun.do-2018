@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#c2f3e2"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/button_image"/>
+
+    <Button
+        android:id="@+id/button_image"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/eText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:onClick="takePicture"
+        android:text="Take a picture!" />
+
+    <Button
+        android:id="@+id/button_image1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/eText"
+        android:layout_centerHorizontal="true"
+        android:onClick="move"
+        android:text="Send SMS!" />
+    <Button
+        android:id="@+id/button_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button_image1"
+        android:layout_centerHorizontal="true"
+        android:onClick="movetomail"
+        android:text="Send EMAIL!" />
+
+    <TextView
+        android:id="@+id/eText"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageview" />
+
+</RelativeLayout>

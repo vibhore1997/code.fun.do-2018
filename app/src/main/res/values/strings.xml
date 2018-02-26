@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Subtitulo</string>
+    <string name="sub_key">6673ba1bc7c7466292197b75b53317e5</string>
+    <string name="sub_apiroot">https://westcentralus.api.cognitive.microsoft.com/vision/v1.0</string>
+</resources>
